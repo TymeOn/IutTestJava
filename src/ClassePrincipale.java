@@ -15,5 +15,6 @@ public class ClassePrincipale {
      */
     public void afficherTexte() {
         System.out.println("Ceci est la classe principale");
+        System.out.println(SingleClass.getInstance().getUUID());
     }
 }
